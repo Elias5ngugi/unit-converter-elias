@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Units-Converter</title>
   <link rel="stylesheet" href="src/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
  <div class="container">
@@ -15,17 +18,19 @@
   </header>
   <form action="">
     <input type="number" required placeholder="value">
-    <select for="convert" required>
-      <option value="">--Base Unit--</option>
-      <option value="">Millimeters</option>
-      <option value="">Centimeters</option>
-      <option value="">Meters</option>
-      <option value="">Dekameters</option>
-      <option value="">Hectometers</option>
-      <option value="">Kilometers</option>
+    <select for="Convert" required>
+      <option value="">--Basic Unit--</option>
+      <option value="Millimeters">Millimeters</option>
+      <option value="Centimeters">Centimeters</option>
+      <option value="Meters">Meters</option>
+      <option value="Dekameters">Dekameters</option>
+      <option value="Hectometers">Hectometers</option>
+      <option value="Kilometers">Kilometers</option>
     </select>
-    <button>Convert</button>
+    
+    <button type="submit">Convert</button>
   </form>
  </div> 
 </body>
+<script src="src/main.js"></script>
 </html>

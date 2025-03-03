@@ -1,5 +1,5 @@
 body{
-  font-family: 'Georgia', serif;
+  font-family: "Lora", serif;
   font-weight: bold;
 }
 .container {
@@ -8,32 +8,56 @@ body{
   justify-content: center;
   align-items: center;
   background-color: rgb(230, 228, 228);
-  
-
 }
 
 h1{
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   margin-top: 3rem;
 
 }
 
 input ,select ,button{
-  padding: 1rem 0.5rem;
+  padding: 0.5rem 0.3rem;
   border-radius: 5px;
   border: none;
+  gap: 2rem;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 input[placeholder]{
   font-weight: 700;
   font-size: 1.2rem;
+  margin-right: 0.5rem;
 }
 
 form{
   margin-bottom: 4rem;
+  margin-left: 2rem;
 }
 
 input{
   border: none;
   min-width: 13rem;
+}
+
+select, option{
+  font-weight: bolder;
+  font-size: 18px;
+  padding-right: 4rem;
+  justify-content: center;
+  margin-right: 0.5rem;
+  font-family: "Lora", serif;
+}
+
+button{
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  padding-right: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lora", serif;
 }
