@@ -16,21 +16,23 @@
       CONVERT FROM ANY UNIT TO ALL UNITS
     </h1>
   </header>
-  <form action="">
-    <input type="number" required placeholder="value">
-    <select for="Convert" required>
+  <form action="" id="converter">
+    <input type="number" required placeholder="value" id="inputVal">
+    <select for="Convert" required id="selected">
       <option value="">--Basic Unit--</option>
       <option value="Millimeters">Millimeters</option>
       <option value="Centimeters">Centimeters</option>
+      <option value="Decimeters">Decimeters</option>
       <option value="Meters">Meters</option>
-      <option value="Dekameters">Dekameters</option>
+      <option value="Decameters">Decameters</option>
       <option value="Hectometers">Hectometers</option>
       <option value="Kilometers">Kilometers</option>
     </select>
-    
+    <p id="warning"></p>
     <button type="submit">Convert</button>
   </form>
- </div> 
+ </div>
+ <div id="display"></div>
 </body>
 <script src="src/main.js"></script>
 </html>

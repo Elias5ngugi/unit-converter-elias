@@ -6,7 +6,7 @@ form.addEventListener("submit", (e) => {
     const warningText = document.getElementById("warning");
     const selectVal = document.getElementById("selected").value;
     warningText.innerHTML = "";
-    if (value && selectVal !== null) {
+    if (value && selectVal !== "") {
         let abb, mm, cm, dm, m, Dm, Hm, Km;
 
         switch (selectVal) {
